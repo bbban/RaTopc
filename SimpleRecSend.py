@@ -2,7 +2,7 @@ import socket
 
 def server():
     global port
-    host = "localhost"
+    host = "192.168.1.112"
 
     comms_socket = socket.socket()
     comms_socket.bind((host,port))
